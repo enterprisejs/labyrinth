@@ -1,0 +1,35 @@
+{
+    "name": "Labyrinth",
+    "description": "A new type of web framework, or just another routing idea.",
+    "version": "0.1.0",
+    "author": "Charles Martin",
+    "keywords": [],
+    "homepage": "",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/abraxas/labyrinth.git"
+    },
+    "bugs": {
+        "url": ""
+    },
+    "engines": {
+        "node": "~0.8.0"
+    },
+    "dependencies": {
+      "bouncy": "*",
+      "step": "*",
+      "dirty": "*",
+      "amqp": "*",
+      "barista": "git://github.com/kieran/barista.git",
+      "crdt": "*"
+    },
+    "devDependencies": {
+        "mocha": "*",
+        "should": "*"
+    },
+    "scripts": {
+        "test": "make test"
+    },
+    "main": "index",
+    "private": true
+}
